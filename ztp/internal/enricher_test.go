@@ -99,7 +99,7 @@ var _ = Describe("Enricher", func() {
 					"cloud.openshift.com": {
 						"auth": "bXktdXNlcjpteS1wYXNz",
 						"email": "mary@example.com"
-					},
+					}
 				}
 			}`)
 			defaultPullSecretStream, err := os.CreateTemp("", "*.test")
